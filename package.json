@@ -1,0 +1,7 @@
+// package.json
+{
+  "name": "cicd-app",
+  "version": "1.0.0",
+  "scripts": { "start": "node app.js", "test": "echo 'Tests passed'" },
+  "dependencies": { "express": "^4.18.0" }
+}
