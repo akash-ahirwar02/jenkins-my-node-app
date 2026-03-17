@@ -5,7 +5,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
         IMAGE_NAME = "erakash2000/my-node-app"
-        DEPLOY_SERVER = "ubuntu@3.111.215.31"
+        DEPLOY_SERVER = "ubuntu@3.111.157.155"
     }
     
     stages {
